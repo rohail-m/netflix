@@ -8,7 +8,7 @@ body{
 
 .header{
   display: flex;
-
+  flex-direction: row;
 }
 
 .logo
@@ -22,17 +22,17 @@ body{
    color: white;
    text-decoration: none;
     padding-top: 1%;
-    padding-left: 2%;
+    padding-left: 1.5%;
 }
 
 .search-logo
 {
     height: 20px;
     width: 20px;
-    padding-left: 38%;
+    padding-left: 1%;
     padding-top: 1%;
-
-}
+    margin-left: 38%;
+  }
 
 .bell-icon
 {
@@ -62,31 +62,62 @@ body{
  border-radius: 2px;
 }
 
-.container {
+.container1 {
   display: flex;
   flex-wrap: no-wrap;
   overflow-x: scroll;
   border: 1px solid yellow;
   margin-top: 1%;
-  height: fit-content;
+  width: fit-content;  
 }
 img {
   flex: 0 0 auto;
   width: auto;
-  height: 100px;
-  max-width: 100%;
-  margin-right: 5px;
+  height: 150px;
+  max-width: 150%;
+  margin-right: 10px;
 }
 
-.young{
-  color: white;
-  margin-top: 4%;
+.container1:hover{
+  cursor: pointer;
+  }
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover, .seven:hover, .eight:hover,.nine:hover, .ten:hover, .eleven:hover, .twelve:hover
+{
+  transform: translate(2,3);
+  height: 110px;
+  max-width: 90%;
 }
-.h1{
-  height: 5px;
-  width: 5px;
-  
+.container2 {
+  display: flex;
+  flex-wrap: no-wrap;
+  overflow-x: scroll;
+  border: 1px solid yellow;
+  margin-top: 1%;
+  width: fit-content;  
 }
+.container2:hover{
+  cursor: pointer;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: scroll;
+    border: 1px solid yellow;
+    margin-top: 1%;
+    width: fit-content;  
+  }
+  .container2:hover{
+    cursor: pointer;
+    }
+  h2
+  {
+    size: 46px;
+    color: aliceblue;
+    margin-top: 4%;
+  }
+
 /*
 * {
   box-sizing: border-box;
